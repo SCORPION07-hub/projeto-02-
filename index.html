@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kit com 50 eBooks</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 3em 1em;
+      text-align: center;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+    section {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+      opacity: 0;
+      animation: fadeIn 2s ease-in-out forwards;
+    }
+    .cta {
+      background: #111;
+      color: #fff;
+      padding: 2em;
+      text-align: center;
+      margin: 2em 0;
+      border-radius: 10px;
+      opacity: 0;
+      animation: fadeIn 2s ease-in-out forwards;
+    }
+    .cta button {
+      background: #00c851;
+      border: none;
+      padding: 1em 2em;
+      color: #fff;
+      font-size: 1.2em;
+      cursor: pointer;
+      border-radius: 5px;
+      display: block;
+      margin: 0 auto;
+      width: 50%;
+      transition: background 0.3s ease;
+    }
+    .cta button:hover {
+      background: #007c33;
+    }
+    ul {
+      list-style: disc;
+      padding-left: 2em;
+    }
+    .depoimentos {
+      background: #e0e0e0;
+      padding: 1.5em;
+      border-radius: 10px;
+      margin: 1em 0;
+      opacity: 0;
+      animation: fadeIn 2s ease-in-out forwards;
+    }
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+      margin-top: 2em;
+    }
+    .advantage {
+      background: #00c851;
+      color: white;
+      padding: 1.5em;
+      border-radius: 5px;
+      margin: 2em 0;
+      opacity: 0;
+      animation: fadeIn 2s ease-in-out forwards;
+    }
+    .counter {
+      background: #ff4d4d;
+      color: white;
+      padding: 1em;
+      text-align: center;
+      font-size: 1.5em;
+      border-radius: 5px;
+      margin: 2em 0;
+      opacity: 0;
+      animation: fadeIn 2s ease-in-out forwards;
+    }
+    .book-images {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 2em;
+      opacity: 0;
+      animation: fadeIn 2s ease-in-out forwards;
+    }
+    .book-images img {
+      width: 150px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    /* Efeitos de Fade-in */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Adicionando rolagem suave */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kit com 50 eBooks</h1>
+    <p>Transforme sua mente com os livros mais poderosos que você pode ler.</p>
+  </header>
+
+  <section>
+    <h2>O que você vai receber:</h2>
+    <ul>
+      <li>Mais Esperto que o Diabo</li>
+      <li>A Arte da Sedução</li>
+      <li>As Leis da Natureza Humana</li>
+      <li>Crime e Castigo</li>
+      <li>O Cemitério – Stephen King</li>
+      <li>Quarta Asa</li>
+      <li>Comece pelo Porquê</li>
+      <li>E mais 43 títulos transformadores</li>
+    </ul>
+  </section>
+
+  <section class="advantage">
+    <h3>Vantagens de Adquirir Agora</h3>
+    <ul>
+      <li>Transformação pessoal com os maiores pensadores do mundo.</li>
+      <li>Melhore sua mentalidade, conhecimento e habilidades de comunicação.</li>
+      <li>Acesso vitalício a todos os livros – leia quando e onde quiser!</li>
+      <li>Conteúdo de autores renomados como Stephen King, Nietzsche e mais.</li>
+    </ul>
+  </section>
+
+  <section class="counter">
+    <p>⏳ Oferta por tempo limitado! Só <strong>50</strong> kits disponíveis a esse preço!</p>
+  </section>
+
+  <section class="cta">
+    <h2>Oferta Especial via PIX</h2>
+    <p>Adquira agora o kit completo por apenas <strong>R$19,90</strong> (acesso vitalício)</p>
+    <p>Pagamento via PIX. Envie o comprovante e receba os livros no seu e-mail ou WhatsApp.</p>
+    <button onclick="window.open('https://wa.me/5511999999999', '_blank')">Comprar via WhatsApp</button>
+  </section>
+
+  <section class="book-images">
+    <div>
+      <img src="https://via.placeholder.com/150" alt="Mais Esperto que o Diabo" />
+      <p>Mais Esperto que o Diabo</p>
+    </div>
+    <div>
+      <img src="https://via.placeholder.com/150" alt="A Arte da Sedução" />
+      <p>A Arte da Sedução</p>
+    </div>
+    <div>
+      <img src="https://via.placeholder.com/150" alt="Crime e Castigo" />
+      <p>Crime e Castigo</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Depoimentos</h2>
+    <div class="depoimentos">
+      <p>"Esses livros mudaram minha forma de pensar. Vale cada centavo!"</p>
+      <strong>- Mariana R.</strong>
+    </div>
+    <div class="depoimentos">
+      <p>"O conteúdo é simplesmente incrível. Leitura obrigatória para quem busca evolução pessoal."</p>
+      <strong>- Lucas F.</strong>
+    </div>
+  </section>
+
+  <section>
+    <h2>Perguntas Frequentes</h2>
+    <p><strong>Como recebo os livros?</strong> Você receberá um link com todos os 50 eBooks após o pagamento.</p>
+    <p><strong>O acesso é vitalício?</strong> Sim, o link ficará disponível para sempre.</p>
+    <p><strong>Preciso instalar algo?</strong> Não, os eBooks vêm em PDF e funcionam em qualquer celular ou computador.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kit com 50 eBooks. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
